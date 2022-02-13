@@ -1,6 +1,7 @@
-def cube(num):
-    c = pow(num,4)
+def cube(base, power):
+    c = pow(base, power)
     return c
-number=int(input("Suggest a number: "))
-result = cube(number)
+base_number=int(input("Suggest a base number: "))
+index_number=int(input("Suggest a index number: "))
+result = cube(base_number,index_number)
 print(result)
